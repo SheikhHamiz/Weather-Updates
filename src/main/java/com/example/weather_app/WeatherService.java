@@ -8,7 +8,7 @@ import java.util.List;
 
 @Service
 public class WeatherService {
-    private final String API_KEY = "8a29db30a4eecfe4005e74280848598b";
+    private final String API_KEY = "add your key";
     private final String BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
     private  final WeatherRepo weatherRepo;
     private final WeatherHistoryRepo weatherHistoryRepo;
